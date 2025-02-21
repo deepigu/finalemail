@@ -6,6 +6,7 @@
     <title>Melody Master Co - Custom Song Service</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -22,7 +23,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 5%;
-            background: rgba(44, 62, 80, 0.85);
+            background: rgba(44, 62, 80, 0.9);
             position: fixed;
             width: 100%;
             top: 0;
@@ -86,6 +87,7 @@
                 background: rgba(44, 62, 80, 0.95);
                 text-align: center;
                 padding: 15px 0;
+                transition: all 0.3s ease-in-out;
             }
 
             .nav-links.show {
@@ -101,6 +103,11 @@
                 width: 100%;
                 padding: 12px 0;
             }
+        }
+
+        /* Adjust margin to prevent overlap */
+        #hero {
+            margin-top: 80px;
         }
     </style>
 </head>
@@ -122,6 +129,26 @@
         </ul>
     </nav>
 </header>
+
+<section id="hero">
+    <h2>Create a Melody That's Truly Yours!</h2>
+    <p>Your story deserves a unique soundtrack. Let Melody Master Co create a custom song just for you.</p>
+</section>
+
+<section id="services">
+    <h2>What We Can Do For You</h2>
+    <p>Our comprehensive services are designed to cater to your every musical need.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Learn more about our mission and passion for creating personalized music.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:melodymastersco@gmail.com">melodymastersco@gmail.com</a></p>
+</section>
 
 <script>
     function toggleMenu() {
